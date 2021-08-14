@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,100 +9,103 @@
   <!-- main stylesheet -->
   <link rel="stylesheet" href="css/main.min.css">
 </head>
-<body >
+
+<body>
   <section>
     <div class="container">
-    <h1 id="title" class="text-center">
-      Survey Form
-    </h1>
-    <p id="description" class="text-center">
-      Thank you for taking the time to help us improve the platform
-    </p>
+      <h1 id="title" class="text-center">
+        Survey Form
+      </h1>
+      <p id="description" class="text-center">
+        Thank you for taking the time to help us improve the platform
+      </p>
 
-    <form action="" id="survey-form" class="p-5 w-75 mx-auto rounded-3">
-
-
-      <div class="mt-3">
-     <label for="name" class="form-label "  id="name-label">Name</label>
-     <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-
-     <label for="email" id="email-label"  class="form-label mt-3">Email</label>
-     <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
-     
-     <label for="number" class="form-label mt-3" id="number-label">Age(optional)</label>
-     <input type="number" name="age" id="number" class="form-control" min="10" max="100" placeholder="Enter your age">
-      </div>
-    
-
-     <div class="mt-4">
-      <label for="role" class="form-label">Which option best describes your current role?</label>
-      <select  id="dropdown" name="role" id="role" class="form-select" >
-        <option value="" selected disabled >Select current role</option>
-        <option value="student" >Student</option>
-        <option value="job">Full time job</option>
-        <option value="learner">Full time learner</option>
-        <option value="not say">Prefer not to say</option>
-        <option value="others">Others</option>
-      </select>
-     </div>
+      <form action="" id="survey-form" class="p-5 w-75 mx-auto rounded-3">
 
 
-    <div class="mt-3">
-      <label for="radio" class="form-label">Would you recommend me to a friend?
-      </label>
-      <br>
-      <input type="radio" name="user-recommend" id="definitely" class="form-check-input mt-1" value="Definitely">
-      <label for="difinitely" class="form-check-labele">Definitely</label>
-      <br>
-      <input type="radio" name="user-recommend" id="maybe" class="form-check-input mt-1" value="Maybe">
-      <label for="maybe" class="form-check-label">Maybe</label>
-      <br>
-      <input type="radio" name="user-recommend" id="not-sure" class="form-check-input mt-1" value="Not-sure">
-      <label for="not-sure" class="form-check-label">Not-sure</label>  
-    </div>
+        <div class="mt-3">
+          <label for="name" class="form-label " id="name-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+
+          <label for="email" id="email-label" class="form-label mt-3">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+
+          <label for="number" class="form-label mt-3" id="number-label">Age(optional)</label>
+          <input type="number" name="age" id="number" class="form-control" min="10" max="100"
+            placeholder="Enter your age">
+        </div>
 
 
-    <div>
-    <label for="liked-service" class="form-label mt-3">Which of the service you liked most</label>
-    <select name="liked-service" id="liked-service" class="form-select ">
-      <option value="" selected disabled>Select an option</option>
-      <option value="psd-html">PSD to HTML</option>
-      <option value="fig-html">Fig to HTML</option>
-      <option value="javascript">Javascript</option>
-      <option value="bootstrap">Bootstrap</option>
-    </select>
-    </div>
-    
-<div class="mt-3">
-    <label for="" class="form-label">What would you like to see improved?</label>
-    <br>
-    <input type="checkbox" name="html" id="html" class="form-check-input" value="html">
-    <label for="html" class="form-check-label">HTML</label>
-    <br>
-    <input type="checkbox" name="css" id="css" class="form-check-input" value="css">
-    <label for="css" class="form-check-label">CSS</label>
-    <br>
-    <input type="checkbox" name="js" id="js" class="form-check-input" value="js">
-    <label for="js" class="form-check-label">Javascript</label>
-  </div>
+        <div class="mt-4">
+          <label for="role" class="form-label">Which option best describes your current role?</label>
+          <select id="dropdown" name="role" id="role" class="form-select">
+            <option value="" selected disabled>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full time job</option>
+            <option value="learner">Full time learner</option>
+            <option value="not say">Prefer not to say</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
 
-<div class="mt-3">
-  <label for="comment" class="form-label " >Any comments or suggestions?</label>
-  <br>
-  <textarea name="comment" id="comment" rows="5" class="form-control">
-    
+
+        <div class="mt-3">
+          <label for="radio" class="form-label">Would you recommend me to a friend?
+          </label>
+          <br>
+          <input type="radio" name="user-recommend" id="definitely" class="form-check-input mt-1" value="Definitely">
+          <label for="difinitely" class="form-check-labele">Definitely</label>
+          <br>
+          <input type="radio" name="user-recommend" id="maybe" class="form-check-input mt-1" value="Maybe">
+          <label for="maybe" class="form-check-label">Maybe</label>
+          <br>
+          <input type="radio" name="user-recommend" id="not-sure" class="form-check-input mt-1" value="Not-sure">
+          <label for="not-sure" class="form-check-label">Not-sure</label>
+        </div>
+
+
+        <div>
+          <label for="liked-service" class="form-label mt-3">Which of the service you liked most</label>
+          <select name="liked-service" id="liked-service" class="form-select ">
+            <option value="" selected disabled>Select an option</option>
+            <option value="psd-html">PSD to HTML</option>
+            <option value="fig-html">Fig to HTML</option>
+            <option value="javascript">Javascript</option>
+            <option value="bootstrap">Bootstrap</option>
+          </select>
+        </div>
+
+        <div class="mt-3">
+          <label for="" class="form-label">What would you like to see improved?</label>
+          <br>
+          <input type="checkbox" name="html" id="html" class="form-check-input" value="html">
+          <label for="html" class="form-check-label">HTML</label>
+          <br>
+          <input type="checkbox" name="css" id="css" class="form-check-input" value="css">
+          <label for="css" class="form-check-label">CSS</label>
+          <br>
+          <input type="checkbox" name="js" id="js" class="form-check-input" value="js">
+          <label for="js" class="form-check-label">Javascript</label>
+        </div>
+
+        <div class="mt-3">
+          <label for="comment" class="form-label ">Any comments or suggestions?</label>
+          <br>
+          <textarea name="comment" id="comment" rows="5" class="form-control">
+
   </textarea>
-</div>
-<button id="submit" class="btn-success btn-lg w-100 mt-4 fw-bold">Submit</button>
-    </form>
-  </div>
+        </div>
+        <button id="submit" class="btn-success btn-lg w-100 mt-4 fw-bold">Submit</button>
+      </form>
+    </div>
   </section>
-   
- 
+
+
 
   <!-- test script -->
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <!-- bootstrap script -->
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
